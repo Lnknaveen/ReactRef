@@ -1,3 +1,4 @@
+//@flow
 import React, { Component } from "react";
 import "./App.css";
 import ComponentByCode from "./components/002_ComponentByCode";
@@ -16,6 +17,9 @@ import LifeCycleHooks from "./components/013_LifeCycleHooks";
 import PureComponent from "./components/014_PureComponent";
 import RouterComponent from "./components/015_RouterComponents";
 import RefsDOMS from "./components/016_RefsDOMs";
+import PropTypesCheck from "./components/017_PropTypesCheck";
+import FlowCheck from "./components/018_FlowCheck";
+import HigherOrderComponent from "./components/019_ HigherOrderComponent";
 
 class App extends Component {
   render() {
@@ -37,6 +41,9 @@ class App extends Component {
         <PureComponent />
         <RouterComponent />
         <RefsDOMS />
+        <PropTypesCheck />
+        <FlowCheck />
+        <HigherOrderComponent />
       </div>
     );
   }
